@@ -2,7 +2,20 @@
 	backgroundColor:"white"
 },
 "TextField": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+	top: 10,
+	left: 10, 
+	right: 10,
+	width: Ti.UI.FILL,
+	height: 50,
+	color: "#000",
+	borderColor: '#ccc',
+	borderWidth: 1,
 } 
+"Button":{
+	backgroundColor:"blue",
+	width: 100,
+	height: 50,
+	right: 10,
+	top: 20,
+	color: "#fff"
+}

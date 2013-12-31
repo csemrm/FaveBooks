@@ -72,13 +72,7 @@ function Controller() {
     };
     _.extend($, $.__views);
     $.navGroupWin.open();
-    var myBooks = Alloy.Collections.books;
-    var book = Alloy.createModel("books", {
-        title: "Great Expectations",
-        author: "Charles Dickens"
-    });
-    myBooks.add(book);
-    book.save();
+    Alloy.Collections.books;
     __defers["__alloyId7!click!showBook"] && __alloyId7.addEventListener("click", showBook);
     __defers["$.__views.add!click!addBook"] && $.__views.add.addEventListener("click", addBook);
     _.extend($, exports);

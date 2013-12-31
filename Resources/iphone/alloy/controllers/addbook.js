@@ -27,22 +27,38 @@ function Controller() {
     });
     $.__views.addbook.add($.__views.__alloyId0);
     $.__views.titleInput = Ti.UI.createTextField({
-        width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
+        top: 10,
+        left: 10,
+        right: 10,
+        width: Ti.UI.FILL,
+        height: 50,
         color: "#000",
+        borderColor: "#ccc",
+        borderWidth: 1,
         id: "titleInput",
         hintText: "Title..."
     });
     $.__views.__alloyId0.add($.__views.titleInput);
     $.__views.authorInput = Ti.UI.createTextField({
-        width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
+        top: 10,
+        left: 10,
+        right: 10,
+        width: Ti.UI.FILL,
+        height: 50,
         color: "#000",
+        borderColor: "#ccc",
+        borderWidth: 1,
         id: "authorInput",
         hintText: "Author..."
     });
     $.__views.__alloyId0.add($.__views.authorInput);
     $.__views.insertBookButton = Ti.UI.createButton({
+        backgroundColor: "blue",
+        width: 100,
+        height: 50,
+        right: 10,
+        top: 20,
+        color: "#fff",
         title: "Add",
         id: "insertBookButton"
     });
